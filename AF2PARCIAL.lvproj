@@ -15,6 +15,10 @@
 			<Item Name="USD ACTOR.lvlib" Type="Library" URL="../USD ACTOR/USD ACTOR.lvlib"/>
 			<Item Name="MXN ACTOR.lvlib" Type="Library" URL="../MXN ACTOR/MXN ACTOR.lvlib"/>
 		</Item>
+		<Item Name="Producto Actor" Type="Folder">
+			<Item Name="Soda Actor.lvlib" Type="Library" URL="../Soda Actor/Soda Actor.lvlib"/>
+			<Item Name="coffee Actor.lvlib" Type="Library" URL="../coffee Actor/coffee Actor.lvlib"/>
+		</Item>
 		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
 		<Item Name="launcher.vi" Type="VI" URL="../launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
