@@ -6,6 +6,7 @@
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="init Msg.lvclass" Type="LVClass" URL="../../MXN ACTOR Messages/init Msg/init Msg.lvclass"/>
+		<Item Name="ProcessCoin Msg.lvclass" Type="LVClass" URL="../../MXN ACTOR Messages/ProcessCoin Msg/ProcessCoin Msg.lvclass"/>
 	</Item>
 	<Item Name="MXN ACTOR.lvclass" Type="LVClass" URL="../MXN ACTOR.lvclass"/>
 </Library>
