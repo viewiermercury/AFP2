@@ -45,6 +45,8 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Mensaje Actor.lvlib" Type="Library" URL="../Mensaje Actor/Mensaje Actor.lvlib"/>
+			<Item Name="Write Sub panel msg.vi" Type="VI" URL="../Mensaje Actor/Write Sub panel msg.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
