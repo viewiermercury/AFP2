@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,8 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="launcher.vi" Type="VI" URL="../launcher.vi"/>
+		<Item Name="COINS ACTORS" Type="Folder">
+			<Item Name="USD ACTOR.lvlib" Type="Library" URL="../USD ACTOR/USD ACTOR.lvlib"/>
+			<Item Name="MXN ACTOR.lvlib" Type="Library" URL="../MXN ACTOR/MXN ACTOR.lvlib"/>
+		</Item>
 		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
+		<Item Name="launcher.vi" Type="VI" URL="../launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
